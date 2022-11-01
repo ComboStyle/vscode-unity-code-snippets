@@ -1,7 +1,7 @@
 {
-	"name": "unity-code-snippets",
+	"name": "unity-code-snippets-unprivate",
 	"displayName": "Unity Code Snippets",
-	"description": "All snippets you need for Unity3D development",
+	"description": "All snippets you need for Unity3D development without the private keyword",
 	"version": "1.3.0",
 	"repository": {
 		"type": "git",
@@ -31,10 +31,12 @@
 		"theme": "light"
 	},
 	"contributes": {
-		"snippets": [{
-			"language": "csharp",
-			"path": "./snippets/snippets.json"
-		}]
+		"snippets": [
+			{
+				"language": "csharp",
+				"path": "./snippets/snippets.json"
+			}
+		]
 	},
 	"scripts": {
 		"build": "vsce package"
