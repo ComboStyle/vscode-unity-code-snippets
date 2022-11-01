@@ -8,7 +8,7 @@
 		"url": "https://github.com/ComboStyle/vscode-unity-code-snippetss"
 	},
 	"bugs": {
-		"url": "https://github.com/ComboStyle/vscode-unity-code-snippets",
+		"url": "https://github.com/ComboStyle/vscode-unity-code-snippets"
 	},
 	"publisher": "ComboStyle",
 	"engines": {
@@ -31,12 +31,10 @@
 		"theme": "light"
 	},
 	"contributes": {
-		"snippets": [
-			{
-				"language": "csharp",
-				"path": "./snippets/snippets.json"
-			}
-		]
+		"snippets": [{
+			"language": "csharp",
+			"path": "./snippets/snippets.json"
+		}]
 	},
 	"scripts": {
 		"build": "vsce package"
