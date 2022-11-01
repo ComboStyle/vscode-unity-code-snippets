@@ -1,6 +1,6 @@
 # Unity Code Snippets #
 Create Unity classes and methods easily.
-
+## Forked from kleber-swf, just removed the "private" at the start of functions
 ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/kleber-swf.unity-code-snippets?color=red&style=for-the-badge)
 ![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/kleber-swf.unity-code-snippets?color=blue&style=for-the-badge)
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/kleber-swf.unity-code-snippets?color=orange&style=for-the-badge)
